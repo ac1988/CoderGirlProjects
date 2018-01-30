@@ -23,7 +23,7 @@ public class SandwichShop
 
         if(soldForVeggies >= goalForVeggies) {
             out.println("\nMade goal for veggies.");
-        } else
+        } else {
             out.println("\nFell short of goal for veggies.");
         {
 
@@ -32,10 +32,9 @@ public class SandwichShop
         soldForBurgers = keyboard.nextInt();
         keyboard.skip("\n");
 
-        if(soldForBurgers >= goalForBurgers)
-        {
+        if(soldForBurgers >= goalForBurgers) {
             out.println("\nMade goal for burgers.");
-        } else
+        } else {
             out.println("\nFell short of goal for burgers.");
         }
 
@@ -44,11 +43,9 @@ public class SandwichShop
         soldForSubs = keyboard.nextInt();
         keyboard.skip("\n");
 
-        if(soldForSubs >= goalForSubs)
-        {
+        if(soldForSubs >= goalForSubs) {
             out.println("\nMade goal for subs.");
-        } else
-        {
+        } else {
             out.println("\nFell short of goal for subs.");
         }
 
@@ -57,20 +54,16 @@ public class SandwichShop
         soldForSoup = keyboard.nextInt();
         keyboard.skip("\n");
 
-        if(soldForSoup >= goalForSoup)
-        {
+        if(soldForSoup >= goalForSoup) {
             out.println("\nMade goal for soup.");
-        } else
-        {
+        } else {
             out.println("\nFell short or goal for soup.");
         }
 
         if(soldForVeggies >= goalForVeggies && soldForBurgers >= goalForBurgers &&
-                soldForSubs >= goalForSubs && soldForSoup >= goalForSoup)
-        {
+                soldForSubs >= goalForSubs && soldForSoup >= goalForSoup) {
             out.println("\nMade goal for everything!");
-        } else
-        {
+        } else {
         }
     }
 }
