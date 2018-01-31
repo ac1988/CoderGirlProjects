@@ -25,7 +25,7 @@ public class SandwichShop
             out.println("\nMade goal for veggies.");
         } else {
             out.println("\nFell short of goal for veggies.");
-        {
+        }
 
         out.println("The sales goal for burgers is " + goalForBurgers);
         out.println("How many burgers were sold today?");
